@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/app.js"> </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="quiz" , name="quiz" ;>
+
+
+        <h1>QUIZ NIGHT</h1>
+
+        <p>Does rain fall up or down?</p> <br>
+        <input type="radio" , id="mc" , name="question1" , value="true">up
+        <input type="radio" , id="mc" , name="question1" , value="false">down <br>
+        <p>Is water's freezing point 42 degrees or 32 degrees?</p> <br>
+        <input type="radio" , id="mc" , name="question2" , value="true">32
+        <input type="radio" , id="mc" , name="question2" , value="false">42 <br>
+        <p>Does water freeze in to steam?</p> <br>
+        <input type="radio" , id="mc" , name="question3" , value="true">no
+        <input type="radio" , id="mc" , name="question3" , value="false">yes <br>
+        <p>Do fish live in water?</p> <br>
+        <input type="radio" , id="mc" , name="question4" , value="true">yes
+        <input type="radio" , id="mc" , name="question4" , value="false">no <br>
+
+        <input type="button" , id="button" , value="finished" , onclick="check()" ;>
+
+        <div id="afterclick">
+            <p id="correct_number"></p>
+        </div>
+    </form>
+</body>
+
+</html>
